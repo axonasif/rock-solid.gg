@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
+    "ignore-styles": "^5.0.1",
     "meteor-node-stubs": "^1.2.1",
     "vue": "^2.6.14",
     "vue-meteor-tracker": "^2.0.0-beta.5"
@@ -19,5 +20,10 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.0.96",
+    "@mdi/js": "^7.0.96",
+    "vuetify": "^2.6.8"
   }
 }
