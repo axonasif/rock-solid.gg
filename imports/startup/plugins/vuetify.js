@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 import Vuetify from 'vuetify/lib/framework'
 
-import 'vuetify/lib/util/colors'
+import colors from 'vuetify/lib/util/colors'
 
 import 'vuetify/lib/directives'
 
@@ -12,10 +12,20 @@ Vue.use(Vuetify);
 
 const opts = {
 	theme: {
-		dark: true,
+		themes: {
+			light: {
+				primary: '#fb7419',
+				secondary: '#319197',
+			},
+			dark: {
+				primary: '#fb7419',
+				secondary: '#319197',
+			}
+		},
+		dark: true
 	},
 	icons: {
-		iconfont: 'mdi'
+		iconfont: 'mdiSvg'
 	}
 };
 

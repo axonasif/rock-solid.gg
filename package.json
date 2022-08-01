@@ -22,7 +22,6 @@
     "testModule": "tests/main.js"
   },
   "devDependencies": {
-    "@mdi/font": "^7.0.96",
     "@mdi/js": "^7.0.96",
     "vuetify": "^2.6.8"
   }

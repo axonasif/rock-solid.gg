@@ -1,5 +1,5 @@
-### Icons
-#### 1. Material Design Icons
+### 1. Icons
+#### Material Design Icons
 
 ##### 1.1 link to client/main.html as CDN
 
@@ -65,7 +65,24 @@ export default {
 </script>
 ```
 
-### Vuetify Loader for Meteor
+### 2. Vuetify Loader for Meteor
 This Meteor package loads the Vuetify components as you use them (TreeShaking), reducing the final bundle size and enhancing your RealTime App performance, also bringing a better development experience.
 
 [meteor-vuetify-loader](https://github.com/Hernanm0g/meteor-vuetify-loader)
+
+### 3. Fonts
+#### 3.1 Place font files in 
+```
+/public/fonts
+```
+#### 3.2 Write @font-face in 
+```
+/imports/ui/styles/_fonts.scss
+```
+
+### 3.3 Use it
+``` scss
+.class {
+		font-family: 'Open Sans', sans-serif;
+ }
+```
