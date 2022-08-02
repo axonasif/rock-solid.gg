@@ -9,6 +9,7 @@ RUN curl "https://install.meteor.com/" -k | sh
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 
+RUN mkdir -p /usr/src/app/.meteor/local
 RUN chmod -R 700 /usr/src/app/.meteor/local
 RUN meteor npm install
 
